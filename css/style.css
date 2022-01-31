@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Barnett;
+  src: url(/assets/fonts/Barnett.otf);
+}
+
+.signature {
+  font-family: Barnett, sans-serif;
+  font-size: 95px;
+  line-height: 60px;
+}
+
+.replica_link{
+  color: #987750;
+}
+
+.resumo_fn_modalbox .fn__title::after{
+  display: inline-block;
+ content: ' ';
+ background-image: url('../img/external-link.svg');
+ background-size: contain;
+ height: 13px;
+ width: 13px;
+ margin-left: 2px;
+}
+
